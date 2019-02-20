@@ -17,3 +17,14 @@ def assign_rooms (arr)
   }
   return assignments
 end
+
+def printer
+  badge = batch_back creator
+  rooms = assign_rooms
+  badge.each do |x|
+    puts x 
+  end
+  rooms.each do |y|
+    puts y 
+  end
+end
