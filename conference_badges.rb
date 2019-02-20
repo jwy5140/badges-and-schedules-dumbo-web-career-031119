@@ -5,8 +5,11 @@ end
 def batch_badge_creator (arr)
   messages = Array.new
   arr.each do |n|
-    puts n
     messages.push(badge_maker(n))
   end
   return messages
 end
+
+def assign_rooms (arr)
+  assignments = Array.new 
+  
