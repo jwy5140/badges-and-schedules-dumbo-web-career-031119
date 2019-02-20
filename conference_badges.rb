@@ -2,4 +2,6 @@ def badge_maker (name)
   "Hello, my name is #{name}"
 end
 
-ba
+def batch_badge_creator (arr)
+  messages = Array.(arr.size)
+  
