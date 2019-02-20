@@ -12,4 +12,4 @@ end
 
 def assign_rooms (arr)
   assignments = Array.new 
-  arr.each_with_index 
+  arr.each_with_index {|
