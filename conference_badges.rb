@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator (arr)
   messages = Array.()
-  arr.each do
-    messages.push("Hello, my name is #{arr.shift}.")
+  arr.each do |n|
+    messages.push(badge_maker(n))
   end
 end
