@@ -1,5 +1,5 @@
 def badge_maker (name)
-  "Hello, my name is #{name}."
+  return "Hello, my name is #{name}."
 end
 
 def batch_badge_creator (arr)
@@ -7,5 +7,5 @@ def batch_badge_creator (arr)
   arr.each do |n|
     messages.push(badge_maker(n))
   end
-  messages
+  return messages
 end
