@@ -3,7 +3,7 @@ def badge_maker (name)
 end
 
 def batch_badge_creator (arr)
-  messages = Array.()
+  messages = Array.new
   arr.each do |n|
     messages.push(badge_maker(n))
   end
