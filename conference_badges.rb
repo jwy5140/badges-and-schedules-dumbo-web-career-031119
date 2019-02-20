@@ -18,9 +18,9 @@ def assign_rooms (arr)
   return assignments
 end
 
-def printer
-  badge = batch_back creator
-  rooms = assign_rooms
+def printer(arr)
+  badge = batch_back creator(arr)
+  rooms = assign_rooms(arr)
   badge.each do |x|
     puts x 
   end
