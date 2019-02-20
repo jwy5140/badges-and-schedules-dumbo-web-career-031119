@@ -19,7 +19,7 @@ def assign_rooms (arr)
 end
 
 def printer(arr)
-  badge = batch_back creator(arr)
+  badge = batch_back_creator(arr)
   rooms = assign_rooms(arr)
   badge.each do |x|
     puts x 
