@@ -7,4 +7,5 @@ def batch_badge_creator (arr)
   arr.each do |n|
     messages.push(badge_maker(n))
   end
+  messages
 end
