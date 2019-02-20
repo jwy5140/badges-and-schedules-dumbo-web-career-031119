@@ -4,4 +4,4 @@ end
 
 def batch_badge_creator (arr)
   messages = Array.(arr.size)
-  
+  arr.each do 
